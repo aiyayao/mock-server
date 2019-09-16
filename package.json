@@ -1,0 +1,28 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon -w ./ --exec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiyayao/mock-server.git"
+  },
+  "author": "renjie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aiyayao/mock-server/issues"
+  },
+  "homepage": "https://github.com/aiyayao/mock-server#readme",
+  "dependencies": {
+    "glob": "^7.1.4",
+    "koa": "^2.8.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^1.19.2"
+  }
+}

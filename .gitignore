@@ -1,0 +1,8 @@
+# node_modules
+/node_modules
+
+# routerMap
+/routerMap.json
+
+# package-lock
+/package-lock.json
